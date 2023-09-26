@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ededed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  background-color: white;
+  border-radius: 25px;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #255161;
+  width: 5vw;
+  height: 100vh;
+}
+.nav-item {
+  background-color: #255161;
+  padding: 20px;
+}
+
+.nav-link {
+  background-color: #255161;
+  padding: 15px;
+  align-items: center;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  padding: 2px;
+}
+.uppercut {
+  margin: 10px;
+}
+.upper-cut1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-cut1 h4 {
+  display: inline;
+  padding: 2px;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #636363;
+  font-weight: bold;
+}
+
+.profile-info {
+  background-color: #ededed;
+  color: #636363;
+}
+.img {
+  background-color: #ededed;
+  border-radius: 50px;
+}
+.name {
+  background-color: #ededed;
+  color: black;
+}
+
+.upper-cut2 h2 {
+  background-color: #ededed;
+  padding: 10px;
+}
+
+.photo-section {
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.image {
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.pic {
+  border-radius: 42px;
+  width: 170px;
+  height: 185px;
+}
+
+.age {
+  color: #636363;
+}
+
+.btn {
+  background-color: #4fb384;
+  color: white;
+  width: 202px;
+  height: 57px;
+  border-radius: 19px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: white;
+}
+
+.img-stats {
+  width: 60vw;
+  padding: 0;
+}
+
+.upper-stat1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 2vh;
+}
+
+.heartrate {
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  width: 33%;
+  margin: 2px;
+}
+.sign {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+}
+
+.value {
+  display: inline;
+  text-align: center;
+}
+.num {
+  display: flex;
+  justify-content: center;
+}
+.bodytemp {
+  padding: 50px;
+
+  background-color: #fff;
+  border-radius: 25px;
+  width: 33%;
+  margin: 2px;
+}
+.glucose {
+  padding: 50px;
+  width: 33%;
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 2px;
+}
+
+.lower-stat1 {
+  margin-top: 3vh;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.test-heading {
+  margin: 10px;
+  padding: 13px 35px;
+}
+
+.lower-stat1 h3 {
+  margin-left: 40px;
+}
+.test-reports {
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100px;
+}
+.test {
+  display: flex;
+}
+
+.sign1 {
+  background-color: white;
+  color: #255161;
+}
+.sign2 {
+  background-color: white;
+  color: #f7cf1d;
+}
+.sign3 {
+  background-color: white;
+  color: #c41717;
+}
+
+.test-data {
+  background-color: white;
+}
+
+.date {
+  color: #636363;
+  text-align: center;
+}
+
+.info-section {
+  height: 43vh;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+.information {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 25px;
+  width: 40%;
+  padding: 15px;
+  margin: 0 20px;
+}
+
+.information-stats {
+  background-color: #fff;
+  color: #636363;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.prescriptions {
+  background-color: #fff;
+  border-radius: 25px;
+  height: 42vh;
+  width: 60vw;
+  padding: 15px;
+  margin: 0 20px;
+}
+.box {
+  width: 1000px;
+  border: dashed 1px #636363;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  color: #4fb384;
+}
+table {
+  justify-content: center;
+  align-items: center;
+}
+table,
+td {
+  height: 50px;
+  background-color: white;
+  padding: 15px;
+  color: #636363;
+  font-family: sans-serif;
+}
+.file {
+  background-color: white;
+  color: #f7cf1d;
+  display: inline;
+}
+.table-content {
+  display: inline;
+  background-color: white;
+  color: black;
+}
+
+.report {
+  background-color: white;
+  width: 500px;
+}
+
+.details {
+  width: 380px;
+}
